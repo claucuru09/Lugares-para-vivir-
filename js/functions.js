@@ -1,6 +1,8 @@
-var time=new Date()
+var time=new Date();
 var color; 
 if(time==12)
 {
-    color="verde"
-}document.getElementById(div#color)
+    color="verde";
+}
+
+document.getElementById("timecolor");
