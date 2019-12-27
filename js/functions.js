@@ -14,4 +14,4 @@ ayElement.style.backgroundColor = color
 
 
 var userName = prompt("¿Cúal es tu nombre?");
-var element2 = document.getElementById("username").innerHTML = username;
+document.getElementById("userName").innerHTML += userName;

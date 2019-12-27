@@ -1,10 +1,14 @@
 #main-body{background-color:#FFFD75;}
+body{margin-right: 30px;margin-left:30px}
 
 h1 
     {text-align:center;
     margin-bottom: 50px;
      
 }
+.saludo {font-family: fantasy;
+background-color: lightblue;}
+
 h2.subtitulo
     {
         border: 3px solid sandybrown;
@@ -23,9 +27,7 @@ h4
 #canada-body{background-color: rgb(178, 248, 225);}
 #alemania-body{background-color: rgb(221, 162, 162);}
 #austria-body{background-color: rgb(255, 228, 196);}
-<<<<<<< HEAD
-
-=======
->>>>>>> 6db0d5458e795a9f1b3a660170aa431b7d821a0b
 #suiza-body{background-color: rgb(235, 255, 144);}
 #australia-body{background-color: rgb(72, 255, 112);}
+
+
