@@ -1,16 +1,16 @@
 var time=new Date();
 var color; 
 
-if(time.getHours() ==13)
+if(time.getHours() == 9)
 {
     color="green";
 }
 else if (time.getHours()== 15)
 {
     color="red"
-}
+} else {color="yellow"}
 var ayElement = document.getElementById("timecolor");
-ayElement.innerHTML = color;
+ayElement.style.backgroundColor = color
 
 
 var userName = prompt("¿Cúal es tu nombre?");
